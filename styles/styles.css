@@ -11,6 +11,15 @@
     --main-accent: #2B52FF;
     --clear-accent: #F0F3FF;
     --dark-accent: #000932;
+
+    --title-xl: 5em;
+    --title-x: 4em;
+    --title-m: 2em;
+    --title-s: 1em;
+
+    --body-l: 1.6em;
+    --body-m: 1.2em;
+    --body-s: 1em;
 }
 
 
@@ -19,13 +28,12 @@
 
 h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 6em;
-    color: #000;
+    font-size: var(--title-xl);
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 3em;
+    font-size: var(--title-x);
     color: #000;
 }
 h6{
