@@ -115,6 +115,7 @@ header {
     color: var(--background-white);
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .project-card__image {
@@ -128,7 +129,9 @@ header {
 }
 
 .project-card__title {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 2em;
+    font-weight: 600;
 }
 
 .project-card:hover .project-card__image {
