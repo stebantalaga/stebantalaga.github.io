@@ -7,15 +7,16 @@
 }
 
 :root {
-    --background-clear: #fff;
+    --background-white: #fff;
     --main-accent: #2B52FF;
     --clear-accent: #F0F3FF;
     --dark-accent: #000932;
 
     --title-xl: 5em;
-    --title-x: 4em;
-    --title-m: 2em;
-    --title-s: 1em;
+    --title-l: 4em;
+    --title-m: 1.6em;
+    --title-s: 1.2em;
+    --title-xs: 1em;
 
     --body-l: 1.6em;
     --body-m: 1.2em;
@@ -33,32 +34,34 @@ h1 {
 
 h2 {
     font-family: 'Inter', sans-serif;
-    font-size: var(--title-x);
-    color: #000;
+    font-size: var(--title-l);
 }
+
 h6{
     font-family: 'Inter', sans-serif;
     font-size: 1.5em;
-    color: #000;
 }
 
 p {
     font-family: 'Inter', sans-serif;
-    font-size: 1em;
-    color: #000;
+    font-size: var(--body-m);
 }
 
-.p__large {
+a {
     font-family: 'Inter', sans-serif;
-    font-size: 2em;
-    color: #000;
+    font-size: var(--body-s);
+}
+
+span {
+    font-family: 'Inter', sans-serif;
 }
 
 /************************ Estilos: Header ************************/
 
 header {
     padding: 40px 80px;
-    background: #fff;
+    background: var(--dark-accent);
+    color: var(--background-white);
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -66,16 +69,15 @@ header {
     z-index: 100;
 }
 
-.header-nav__list {
+.header__list {
     display: flex;
     list-style-type: none;
     gap: 2em;
 }
 
-.header-nav_item {
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
-    color: #000;
+.header__item {
+    color: var(--background-white);
+    text-decoration: none;
 }
 
 
@@ -83,8 +85,13 @@ header {
 /************************ Estilos: Home --> Hero ************************/
 
 .hero {
-    padding: 100px 360px;
-    background: #F4F4F4;
+    padding:320px 360px 160px;
+    background: var(--dark-accent);
+    color: var(--background-white);
+}
+
+.hero__subtitle {
+    font-size: var(--title-s);
 }
 
 
