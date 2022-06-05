@@ -62,7 +62,6 @@ span {
 
 header {
     padding: 40px 80px;
-    background: var(--dark-accent);
     color: var(--background-white);
     display: flex;
     width: 100%;
@@ -87,9 +86,63 @@ header {
 /************************ Estilos: Home --> Hero ************************/
 
 .hero {
-    padding:320px 360px 160px;
+    position: relative;
     background: var(--dark-accent);
     color: var(--background-white);
+}
+
+.hero__wrapper {
+    position: relative;
+    padding: 240px 160px 0px;
+    display: flex;
+    gap: 160px;
+    align-items: center;
+    z-index: 10;
+}
+
+.divider__vertical--1 {
+    position: absolute;
+    border-left: 2px solid var(--background-white);
+    opacity: 5%;
+    height: 100%;
+    left: 160px;
+    top: 0;
+}
+
+.divider__vertical--2 {
+    position: absolute;
+    border-left: 2px solid var(--background-white);
+    opacity: 5%;
+    height: 100%;
+    left: 50%;
+    top: 0;
+}
+
+.divider__vertical--3 {
+    position: absolute;
+    border-left: 2px solid var(--background-white);
+    opacity: 5%;
+    height: 100%;
+    right: 160px;
+    top: 0;
+}
+
+.divider__horizontal--1 {
+    position: absolute;
+    border-top: 2px solid var(--background-white);
+    opacity: 5%;
+    width: 100%;
+    left: 0;
+    top: 20%;
+}
+
+.divider__horizontal--2 {
+    position: absolute;
+    border-top: 2px solid var(--background-white);
+    opacity: 5%;
+    width: 100%;
+    left: 0;
+    top: 50%;
 }
 
 .hero__subtitle {
@@ -179,6 +232,30 @@ header {
 }
 
 
+
+/************************ Estilos Footer ************************/
+
+footer {
+    background: var(--dark-accent);
+    padding: 80px 160px;
+}
+
+.footer__wrapper {
+    display: flex;
+    width: fit-content;
+}
+
+.footer i {
+    color: var(--background-white);
+    font-size: 2em;
+}
+
+.fa-brands {
+    padding: 0.5em;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .4);
+    margin: 0px 8px;
+}
 
 /************************ Estilos de Buttons ************************/
 
