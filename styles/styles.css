@@ -6,6 +6,13 @@
     font-size: 16px;
 }
 
+:root {
+    --background-clear: #fff;
+    --main-accent: #2B52FF;
+    --clear-accent: #F0F3FF;
+    --dark-accent: #000932;
+}
+
 
 
 /************************ Estilos de Textos ************************/
