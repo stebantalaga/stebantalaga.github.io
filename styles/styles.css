@@ -242,12 +242,13 @@ footer {
 
 .footer__wrapper {
     display: flex;
-    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer i {
     color: var(--background-white);
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .fa-brands {
@@ -265,6 +266,49 @@ footer {
     color: #fff;
     font-size: 20px;
 }
+
+
+/************************ Estilos --> About --> Cabecera ************************/
+
+.about {
+    padding: 80px 160px;
+}
+
+.biography {
+    padding: 80px 160px;
+}
+.biography__wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+    margin-bottom: 64px;
+}
+
+.experience, .studies {
+    background: var(--clear-accent);
+    padding: 80px 160px;
+}
+
+.experience__table, .studies__table {
+    margin-top: 40px;
+}
+
+.experience__row, .studies__row {
+    display: flex;
+    padding: 24px 0px;
+    margin: -1px;
+    justify-content: space-between;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+
+
+
+
+
+
+
 
 
 
